@@ -14,7 +14,6 @@ class RoundedButton extends StatelessWidget {
   final VoidCallback onPress;
   final Color btnColor, textColor;
 
-
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;

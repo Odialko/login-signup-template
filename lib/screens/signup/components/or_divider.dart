@@ -29,9 +29,9 @@ class OrDivider extends StatelessWidget {
   }
 
   Expanded buildDivider() => const Expanded(
-    child: Divider(
-      height: 1.5,
-      color: AppColors.kDivider,
-    ),
-  );
+        child: Divider(
+          height: 1.5,
+          color: AppColors.kDivider,
+        ),
+      );
 }
